@@ -651,6 +651,7 @@ img {
   background-color: #000;
   color: #fff;
   z-index: 1;
+  overflow: hidden;
 }
 
 .hero {
@@ -793,9 +794,10 @@ img {
       flex-wrap: wrap;
 }
 
-.what-we-do-card .container .card-1 {
+.what-we-do-card .container .card {
   width: 45%;
   height: auto;
+  min-height: 1150px;
   background-color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -811,15 +813,15 @@ img {
   margin-top: 40px;
 }
 
-.what-we-do-card .container .card-1 img {
+.what-we-do-card .container .card img {
   padding-top: 4%;
 }
 
-.what-we-do-card .container .card-1 h2 {
+.what-we-do-card .container .card h2 {
   padding-top: 50px;
 }
 
-.what-we-do-card .container .card-1 p {
+.what-we-do-card .container .card p {
   padding-top: 40px;
   font-weight: 400;
   line-height: 200%;

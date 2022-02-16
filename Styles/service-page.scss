@@ -8,6 +8,7 @@
     background-color: $secondary-one;
     color: $primary-one;
     z-index: 1;
+    overflow: hidden;
 }
 
 //Hero Section
@@ -131,9 +132,10 @@
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
-        .card-1{
+        .card{
             width: 45%;
             height: auto;
+            min-height: 1150px;
             background-color: $primary-one;
             display: flex;
             flex-direction: column;
